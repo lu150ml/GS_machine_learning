@@ -83,9 +83,9 @@ pandas numpy scikit-learn xgboost lightgbm seaborn matplotlib shap scipy
 - **Ensemble soft voting**: ao ponderar XGBoost (peso 3) com SVM e MLP (peso 1 cada), obteve-se uma melhora marginal na acurácia e maior robustez.
 - **Principais drivers**: variáveis temporais (`age_last_milestone_year`, `age_first_funding_year`), intensidade de investimento (`funding_total_usd`, `funding_rounds`) e relacionamentos (`relationships`, `avg_participants`) foram determinantes para classificar casos reais do dataset.
 
-## 🛠️ Próximos passos sugeridos
+## 🛠️ Próximos passos 
 - Criar um arquivo `requirements.txt` formal para simplificar a instalação.
 - Salvar modelos treinados (pickle) e expor uma API leve para scoring.
 - Integrar novas fontes de dados (ex.: métricas de tração atualizadas) e testar técnicas de balanceamento como SMOTE.
 
-Sinta-se à vontade para abrir *issues* ou enviar *pull requests* com melhorias! 💡
+
